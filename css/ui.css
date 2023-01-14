@@ -1,0 +1,286 @@
+
+/* start of main rules */
+
+body{
+    /* background-color: black; */
+}
+
+.abasy-bg{
+    background-image: url('../images/bg_3basy.jpeg');
+    background-position: top center;
+    background-size: 900px;
+    background-attachment: fixed;
+}
+
+.padof-nav{
+    padding-top: 240px;
+}
+
+/* end of main rules */
+
+/* =================================================================================
+==================================================================================== */
+  
+/* start of navbar */
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: #221122ee;
+    width: 100%;
+    height: 65px;
+    z-index: 100;
+}
+
+.navbar *{
+    position: relative;
+}
+
+
+.navbar .logo{
+    width: 65px;
+    height: 65px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    border-radius: 50%;
+}
+
+.navbar .logo-text{
+    width: 1fr;
+    color: #ffeeff;
+}
+
+
+.navbar .search-form{
+    margin-top: 10px;
+    width: 320px;
+}
+
+
+.navbar .search-form button{
+    min-width: 50px;
+    font-weight: bold;
+}
+
+
+/* end of navbar */
+
+/* =========================================================================================
+=========================================================================================== */
+
+
+/* start of index.html */
+
+
+.uc-product{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.uc-product img{
+    width:170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.uc-product h4{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 166, 194);
+}
+
+.uc-product .buy{
+    background-color: rgb(74, 166, 194);
+    padding: 10px;
+    width: 80%;
+    height: 44px;
+    padding: 10px 0;
+    border: 1px solid lightgray;
+    margin: 20px auto 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: white;
+}
+
+/* end of index.html */
+
+
+/* *****************************************************
+=*====================================================*/
+
+/* start of order page */
+
+.order-page{
+    padding: 60px 0 80px;
+}
+
+.order-page .uc-order{  
+    text-align: left;
+    padding-left: 10px;
+    /* color: rgb(132, 0, 255); */
+    color: #e00;
+    font-size: 3rem;
+}
+
+.order-page .label-message{  
+    /* this is styling of label message */
+    text-align: right;
+    color: blue;
+}
+
+.order-page .how-sent{
+    /*  this is styling of send description */
+    text-align: right;
+    color: rgb(255, 0, 0);
+}
+
+
+.order-page .sent-form{
+    max-width: 660px;
+    margin: auto;
+}
+
+
+.order-page .sent-form .custom-input{    
+    background-color: #eee;
+    display: block;
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    border: 0.8px solid #ddd;
+    border-radius: 3.5%;
+    margin: 0 auto 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.order-page .sent-form .chose-img{
+    width: 90%;
+    margin: 0 auto;
+}
+.order-page .sent-form .chose-img *{ display: block; }
+
+.order-page .sent-form .chose-img .show{
+   max-width: 96%;
+    margin: 0 auto 8px;
+}
+
+.order-page .sent-form .chose-img .chose{
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    color: #fef;
+    border: 0.4 solid #0ee;
+    border-radius: 7px;
+}
+
+
+.order-page .sent-form .sent{
+    display: block;
+    width: 70%;
+    height: 40px;
+    background-color: rgb(132, 0, 255);
+    padding: 8px 0;
+    margin: 22px auto 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: #eee;
+}
+
+/* end of order page */
+
+/* ==============================================================================================
+=============================================================================== ==================*/
+
+/* start of login page */
+
+
+.login {
+    max-width: 450px;
+    margin: 100px auto;
+}
+
+.login h1{
+    color: #111;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login .form-control{
+    margin-bottom: 9px;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+/* end of login page */
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////
+================================================================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* start of control */
+
+
+
+.ctrl-nav{
+    background-color: black;
+}
+.ctrl-nav .nav-item a{
+    color: #eee;
+    font-size: bold;
+}
+
+
+.show-data{
+    max-width: 800px;
+    margin: 55px auto;
+}
+
+.show-data h1{
+    margin-bottom: 50px;
+}
+
+.show-data table *{
+    text-align: center;
+}
+
+.show-data table tr{
+    margin-bottom: 10px;
+}
+
+.show-data .info h2{
+    margin-top: 20px;
+}
+
+.show-data .info  a{
+    display: block;
+    width: 70%;
+    padding: 10px 0;
+    margin: 40px auto 0;
+}
+
+
+/* start of controll */

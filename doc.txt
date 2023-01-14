@@ -1,0 +1,10 @@
+///////CONTENTS//////////////////////////////////////
+.header in temp/header.inc
+.footer in temp/footer.inc
+.navbar in temp/nav.inc
+.nav of control in temp/ctrl-nav.inc
+
+..bootstrap4.0 in css/bootstrap.min.css
+.main css file in css/ui.css
+
+.main js file in js/script
